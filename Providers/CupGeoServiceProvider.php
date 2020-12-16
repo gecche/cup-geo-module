@@ -99,10 +99,10 @@ class CupGeoServiceProvider extends ServiceProvider
     public function cupparisPublish() {
         //Publishing configs
         $this->publishes([
-            __DIR__ . '/../config/foorms' => config_path('foorms'),
+            __DIR__ . '/../Config/foorms' => config_path('foorms'),
         ], 'config');
         $this->publishes([
-            __DIR__ . '/../config/datafile-foorms' => config_path('foorms'),
+            __DIR__ . '/../Config/datafile-foorms' => config_path('foorms'),
         ], 'config-datafile-foorms');
 
         //Publishing and overwriting app folders
