@@ -11,7 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Providers\\CupGeoServiceProvider"
+                "Modules\\CupGeo\\Providers\\CupGeoServiceProvider"
             ],
             "aliases": {
 
