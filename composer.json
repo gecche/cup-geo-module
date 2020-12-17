@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-
+        "components/flag-icon-css" : "^3.5"
     },
     "extra": {
         "laravel": {
