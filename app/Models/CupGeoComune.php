@@ -3,7 +3,7 @@
 namespace App\Models;
 
 
-class CupGeoComune extends \Gecche\Cupparis\App\Geografiche\Models\CupGeoComune
+class CupGeoComune extends \Modules\CupGeo\Models\CupGeoComune
 {
     use Relations\CupGeoComuneRelations;
 

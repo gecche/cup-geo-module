@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-class CupGeoArea extends \Gecche\Cupparis\App\Geografiche\Models\CupGeoArea
+class CupGeoArea extends \Modules\CupGeo\Models\CupGeoArea
 {
 
 
