@@ -36,5 +36,5 @@ a - php artisan migrate:rollback
 ```    
 php artisan uninstall-cupparis-package CupGeo
 php artisan migrate:rollback --path=Modules/CupGeo/Database/Migrations/datafile
-php artisan module:migrate-rollback 
+php artisan module:migrate-rollback CupGeo
 ```    
