@@ -1,96 +1,101 @@
 {
-  "foorm": {
-    "entities": [
-      "cup_geo_continente",
-      "cup_geo_area_mondiale",
-      "cup_geo_nazione",
-      "cup_geo_area",
-      "cup_geo_regione",
-      "cup_geo_provincia",
-      "cup_geo_comune",
-      "cup_geo_nazioni_istat",
-      "cup_geo_comuni_istat",
-      "cup_geo_comuni_aggiuntive"
-    ]
-  },
-  "modelconfs": {
-    "files": [
-      "CupGeoContinente.js",
-      "CupGeoAreaMondiale.js",
-      "CupGeoNazione.js",
-      "CupGeoArea.js",
-      "CupGeoRegione.js",
-      "CupGeoProvincia.js",
-      "CupGeoComune.js"
-    ]
-  },
-  "permissions": {
+    "foorm": {
+        "entities": [
+            "cup_geo_continente",
+            "cup_geo_area_mondiale",
+            "cup_geo_nazione",
+            "cup_geo_area",
+            "cup_geo_regione",
+            "cup_geo_provincia",
+            "cup_geo_comune",
+            "cup_geo_nazioni_istat",
+            "cup_geo_comuni_istat",
+            "cup_geo_comuni_aggiuntive"
+        ]
+    },
+    "modelconfs": {
+        "files": [
+                "CupGeoContinente.js",
+                "CupGeoAreaMondiale.js",
+                "CupGeoNazione.js",
+                "CupGeoArea.js",
+                "CupGeoRegione.js",
+                "CupGeoProvincia.js",
+                "CupGeoComune.js"
+        ]
+    },
+    "permissions": {
+        "models": [
+            "cup_geo_continente",
+            "cup_geo_area_mondiale",
+            "cup_geo_nazione",
+            "cup_geo_area",
+            "cup_geo_regione",
+            "cup_geo_provincia",
+            "cup_geo_comune"
+        ],
+        "other_permissions": {
+            "web": [
+            ]
+        }
+    },
+    "policies": {
+        "models": {
+            "\\App\\Models\\CupGeoContinente": "\\App\\Policies\\CupGeoContinentePolicy",
+            "\\App\\Models\\CupGeoAreaMondiale": "\\App\\Policies\\CupGeoAreaMondialePolicy",
+            "\\App\\Models\\CupGeoNazione": "\\App\\Policies\\CupGeoNazionePolicy",
+            "\\App\\Models\\CupGeoArea": "\\App\\Policies\\CupGeoAreaPolicy",
+            "\\App\\Models\\CupGeoRegione": "\\App\\Policies\\CupGeoRegionePolicy",
+            "\\App\\Models\\CupGeoProvincia": "\\App\\Policies\\CupGeoProvinciaPolicy",
+            "\\App\\Models\\CupGeoComune": "\\App\\Policies\\CupGeoComunePolicy"
+        }
+    },
     "models": [
-      "cup_geo_continente",
-      "cup_geo_area_mondiale",
-      "cup_geo_nazione",
-      "cup_geo_area",
-      "cup_geo_regione",
-      "cup_geo_provincia",
-      "cup_geo_comune"
+        "CupGeoContinente",
+        "CupGeoAreaMondiale",
+        "CupGeoNazione",
+        "CupGeoArea",
+        "CupGeoRegione",
+        "CupGeoProvincia",
+        "CupGeoComune"
     ],
-    "other_permissions": {
-      "web": [
-      ]
-    }
-  },
-  "policies": {
-    "models": {
-      "\\App\\Models\\CupGeoContinente": "\\App\\Policies\\CupGeoContinentePolicy",
-      "\\App\\Models\\CupGeoAreaMondiale": "\\App\\Policies\\CupGeoAreaMondialePolicy",
-      "\\App\\Models\\CupGeoNazione": "\\App\\Policies\\CupGeoNazionePolicy",
-      "\\App\\Models\\CupGeoArea": "\\App\\Policies\\CupGeoAreaPolicy",
-      "\\App\\Models\\CupGeoRegione": "\\App\\Policies\\CupGeoRegionePolicy",
-      "\\App\\Models\\CupGeoProvincia": "\\App\\Policies\\CupGeoProvinciaPolicy",
-      "\\App\\Models\\CupGeoComune": "\\App\\Policies\\CupGeoComunePolicy"
-    }
-  },
-  "models": [
-    "CupGeoContinente",
-    "CupGeoAreaMondiale",
-    "CupGeoNazione",
-    "CupGeoArea",
-    "CupGeoRegione",
-    "CupGeoProvincia",
-    "CupGeoComune"
-  ],
-  "datafile-models": [
-    "CupGeoComuniIstat",
-    "CupGeoNazioniIstat",
-    "CupGeoComuniAggiuntive"
-  ],
-  "datafile-providers": [
-    "CupGeoComuniIstatXls",
-    "CupGeoNazioniIstatXls",
-    "CupGeoComuniAggiuntive"
-  ],
-  "pages": [
-    "tabgeoitalia.html",
-    "tabgeomondo.html"
-  ],
-  "config": [
-    "cupparis-app-geografiche"
-  ],
-  "database": {
-    "seeds": [
-      "CupGeoSeeder"
+    "datafile-models": [
+        "CupGeoComuniIstat",
+        "CupGeoNazioniIstat",
+        "CupGeoComuniAggiuntive"
     ],
-    "dump": [
-      "cup_geo_seed_20201030"
+    "datafile-providers": [
+        "CupGeoComuniIstatXls",
+        "CupGeoNazioniIstatXls",
+        "CupGeoComuniAggiuntive"
+    ],
+
+    "config": [
+        "cupgeo"
+    ],
+
+    "public": [
+        "admin/ModelConfs/CupGeoContinente.js",
+        "admin/ModelConfs/CupGeoAreaMondiale.js",
+        "admin/ModelConfs/CupGeoNazione.js",
+        "admin/ModelConfs/CupGeoArea.js",
+        "admin/ModelConfs/CupGeoRegione.js",
+        "admin/ModelConfs/CupGeoProvincia.js",
+        "admin/ModelConfs/CupGeoComune.js",
+
+        "admin/pages/tabgeoitalia.html",
+        "admin/pages/tabgeomondo.html",
+
+        "admin/assets/css/cupgeo.css",
+        "images/vendor/flag-icon-css"
+    ],
+    "install": [
+        "php artisan vendor:publish --provider=\"Gecche\\Cupparis\\App\\Geografiche\\GeoServiceProvider\"",
+        "composer dump-autoload",
+        "php artisan install-cupparis-package cupparis-app-geografiche",
+        "php artisan migrate",
+        "php artisan db:seed --class=CupGeoSeeder",
+        "ln -s ../../../../vendor/components/flag-icon-css/css/flag-icon.css public/admin/assets/css/flag-icon.css",
+        "ln -s ../../../vendor/components/flag-icon-css/flags public/admin/assets/flags"
     ]
-  },
-  "install" : [
-      "php artisan vendor:publish --provider=\"Gecche\\Cupparis\\App\\Geografiche\\GeoServiceProvider\"",
-      "composer dump-autoload",
-      "php artisan install-cupparis-package cupparis-app-geografiche",
-      "php artisan migrate",
-      "php artisan db:seed --class=CupGeoSeeder",
-      "ln -s ../../../../vendor/components/flag-icon-css/css/flag-icon.css public/admin/assets/css/flag-icon.css",
-      "ln -s ../../../vendor/components/flag-icon-css/flags public/admin/assets/flags"
-  ]
 }

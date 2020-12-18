@@ -119,8 +119,10 @@ class CupGeoServiceProvider extends ServiceProvider
 
         //Publishing and overwriting public folders
         $this->publishes([
+            __DIR__ . '/../public/admin/assets/css' => public_path('admin/assets/css'),
             __DIR__ . '/../public/admin/ModelConfs' => public_path('admin/ModelConfs'),
             __DIR__ . '/../public/admin/pages' => public_path('admin/pages'),
+            __DIR__ . '/../public/images/vendor/flag-icon-css' => public_path('images/vendor/flag-icon-css'),
         ], 'public');
     }
 
