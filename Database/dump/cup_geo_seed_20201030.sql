@@ -1614,7 +1614,7 @@ VALUES
 (1538,'Tremezzina',0,'013252','M341',11,'CO',3,2,1,'22016',NULL,NULL,NULL,1),
 (1539,'Alta Valle Intelvi',0,'013253','M383',11,'CO',3,2,1,'22024',NULL,NULL,NULL,1),
 (1540,'Centro Valle Intelvi',0,'013254','M394',11,'CO',3,2,1,'22022',NULL,NULL,NULL,1),
-(1541,'Solbiate con Cagno',0,'013255','M412',11,'CO',3,2,1,NULL,NULL,NULL,NULL,1),
+(1541,'Solbiate con Cagno',0,'013255','M412',11,'CO',3,2,1,'22070',NULL,NULL,NULL,1),
 (1542,'Albaredo per San Marco',0,'014001','A135',12,'SO',3,2,1,'23010','0342',NULL,NULL,1),
 (1543,'Albosaggia',0,'014002','A172',12,'SO',3,2,1,'23010','0342',NULL,NULL,1),
 (1544,'Andalo Valtellino',0,'014003','A273',12,'SO',3,2,1,'23014','0342',NULL,NULL,1),
