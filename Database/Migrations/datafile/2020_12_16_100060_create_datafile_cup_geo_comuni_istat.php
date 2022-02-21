@@ -17,6 +17,7 @@ class CreateDatafileCupGeoComuniIstat extends Migration {
 			$table->increments('id');
 			$table->integer('row')->unsigned()->nullable();
 			$table->integer('datafile_id')->unsigned()->nullable();
+            $table->string('datafile_sheet')->nullable();
 
             $table->string('codice_regione')->nullable();
             $table->string('codice_provincia_nuovo')->nullable();

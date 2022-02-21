@@ -17,6 +17,7 @@ class CreateDatafileCupGeoNazioniIstat extends Migration {
 			$table->increments('id');
 			$table->integer('row')->unsigned()->nullable();
 			$table->integer('datafile_id')->unsigned()->nullable();
+            $table->string('datafile_sheet')->nullable();
 
             $table->string('stato_territorio')->nullable();
             $table->string('codice_continente')->nullable();

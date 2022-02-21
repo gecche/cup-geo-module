@@ -26,7 +26,9 @@ class CupGeoComune extends Breeze
     public $ownerships = false;
 
     public $appends = [
-        'nazione_iso3'
+        'nazione_iso3',
+        'multicap',
+        'precap',
     ];
 
 
@@ -82,11 +84,20 @@ class CupGeoComune extends Breeze
 
     }
 
-    public function getCapAttribute($value) {
-        $value = strtolower($value);
+    public function getMulticapAttribute() {
+        $value = strtolower($this->cap);
         if (Str::endsWith($value,'x')) {
             $preCap = substr($value,0,-2);
             $value = $preCap . '00 - ('.$value.')';
+        }
+        return $value;
+    }
+
+    public function getPrecapAttribute() {
+        $value = strtolower($this->cap);
+        if (Str::endsWith($value,'x')) {
+            $preCap = substr($value,0,-2);
+            $value = $preCap . '00';
         }
         return $value;
     }
