@@ -90,9 +90,9 @@ class CupGeoServiceProvider extends ServiceProvider
      */
     public function registerFactories()
     {
-        if (! app()->environment('production') && $this->app->runningInConsole()) {
-            app(Factory::class)->load(module_path('CupGeo', 'Database/factories'));
-        }
+//        if (! app()->environment('production') && $this->app->runningInConsole()) {
+//            app(Factory::class)->load(module_path('CupGeo', 'Database/factories'));
+//        }
     }
 
 

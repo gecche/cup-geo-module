@@ -1,12 +1,9 @@
 <?php
-
-use Gecche\Breeze\Facades\Schema;
-use Gecche\Breeze\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
-
-class CreateCupGeoComuniTable extends Migration {
-
+return new class extends Migration {
 	/**
 	 * Run the migrations.
 	 *
@@ -16,19 +13,19 @@ class CreateCupGeoComuniTable extends Migration {
 	{
 		Schema::create('cup_geo_comuni', function(Blueprint $table)
 		{
-            			$table->increments('id');
+            			$table->id();
 			$table->string('nome_it');
 			$table->boolean('capoluogo')->nullable();
 			$table->string('codice_istat',6)->unique();
             $table->string('codice_catastale',6)->unique();
-			$table->integer('provincia_id')->unsigned()->index();
+			$table->unsignedBigInteger('provincia_id')->index();
 			$table->foreign('provincia_id')->references('id')->on('cup_geo_province')->onDelete('restrict')->onUpdate('cascade');
             $table->string('sigla_provincia',2);
-            $table->integer('regione_id')->unsigned()->index();
+            $table->unsignedBigInteger('regione_id')->index();
             $table->foreign('regione_id')->references('id')->on('cup_geo_regioni')->onDelete('restrict')->onUpdate('cascade');
-            $table->integer('area_id')->unsigned()->index();
+            $table->unsignedBigInteger('area_id')->index();
             $table->foreign('area_id')->references('id')->on('cup_geo_aree')->onDelete('restrict')->onUpdate('cascade');
-            $table->integer('nazione_id')->unsigned()->index()->nullable()->default(null);
+            $table->unsignedBigInteger('nazione_id')->index()->nullable()->default(null);
             $table->foreign('nazione_id')->references('id')->on('cup_geo_nazioni')->onDelete('restrict')->onUpdate('cascade');
 			$table->string('cap',6)->nullable();
             $table->string('prefisso',6)->nullable();
@@ -49,4 +46,4 @@ class CreateCupGeoComuniTable extends Migration {
 		Schema::drop('cup_geo_comuni');
 	}
 
-}
+};

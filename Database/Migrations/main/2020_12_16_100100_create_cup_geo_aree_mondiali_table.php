@@ -1,11 +1,10 @@
 <?php
 
-use Gecche\Breeze\Facades\Schema;
-use Gecche\Breeze\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
-
-class CreateCupGeoAreeMondialiTable extends Migration
+return new class extends Migration
 {
 
     /**
@@ -16,7 +15,7 @@ class CreateCupGeoAreeMondialiTable extends Migration
     public function up()
     {
         Schema::create('cup_geo_aree_mondiali', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->string('codice', 3)->unique();
             $table->string('nome_it')->unique();
         });
@@ -32,4 +31,4 @@ class CreateCupGeoAreeMondialiTable extends Migration
         Schema::drop('cup_geo_aree_mondiali');
     }
 
-}
+};
