@@ -1,4 +1,5 @@
 var ModelCupGeoProvincia = {
+    modelName : 'cup_geo_provincia',
     search: {
         modelName : 'cup_geo_provincia',
         //langContext : 'user',
@@ -49,7 +50,7 @@ var ModelCupGeoProvincia = {
                 ]
             }
         },
-        customActions : {
+        actionsConfig : {
             'action-export-csv' : {
                 text: 'Csv',
             }

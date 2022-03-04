@@ -1,4 +1,5 @@
 var ModelCupGeoNazione = {
+    modelName: 'cup_geo_nazione',
     search: {
         modelName: 'cup_geo_nazione',
         //langContext : 'user',
@@ -79,7 +80,7 @@ var ModelCupGeoNazione = {
             'codice': 'codice',
             'nome_it': 'nome_it'
         },
-        customActions: {
+        actionsConfig: {
             'action-export-csv': {
                 text: 'Csv',
             }

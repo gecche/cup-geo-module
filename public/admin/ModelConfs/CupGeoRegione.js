@@ -1,5 +1,6 @@
 
 var ModelCupGeoRegione = {
+    modelName : 'cup_geo_regione',
     search: {
         modelName : 'cup_geo_regione',
         //langContext : 'user',
@@ -50,7 +51,7 @@ var ModelCupGeoRegione = {
                 ]
             }
         },
-        customActions : {
+        actionsConfig : {
             'action-export-csv' : {
                 text: 'Csv',
             }
