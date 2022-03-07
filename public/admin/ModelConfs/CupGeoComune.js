@@ -41,11 +41,11 @@ var ModelCupGeoComune = {
         ],
         fieldsConfig: {
             'capoluogo' : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_comune',
             },
             'attivo' : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_comune',
             },
             'provincia' : {

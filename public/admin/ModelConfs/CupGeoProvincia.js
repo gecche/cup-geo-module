@@ -40,7 +40,7 @@ var ModelCupGeoProvincia = {
         },
         fieldsConfig : {
             'attivo' : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_provincia'
             },
             'regione' : {

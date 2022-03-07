@@ -42,7 +42,7 @@ var ModelCupGeoRegione = {
         },
         fieldsConfig : {
             'attivo' : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_regione'
             },
             'area' : {
