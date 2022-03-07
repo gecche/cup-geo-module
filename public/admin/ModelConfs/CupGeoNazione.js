@@ -68,7 +68,7 @@ var ModelCupGeoNazione = {
                 }
             },
             attivo : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_nazione'
             }
         },

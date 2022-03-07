@@ -26,6 +26,7 @@ var ModelCupGeoRegione = {
     // },
     list: {
         modelName : 'cup_geo_regione',
+        cType: 'list',
         fields : [
             'codice','nome_it',
             'area',
