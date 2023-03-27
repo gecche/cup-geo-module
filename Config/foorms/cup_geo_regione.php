@@ -60,6 +60,9 @@ return [
     ],
     'list' => [
 
+        'allowed_actions' => [
+            'csv-export' => true,
+        ],
         'actions' => [
             'set' => [
                 'allowed_fields' => [

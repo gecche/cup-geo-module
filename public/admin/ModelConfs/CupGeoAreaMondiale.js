@@ -1,4 +1,5 @@
 var ModelCupGeoAreaMondiale = {
+    modelName : 'cup_geo_area_mondiale',
     search: {
         modelName : 'cup_geo_area_mondiale',
         //langContext : 'user',
@@ -26,7 +27,7 @@ var ModelCupGeoAreaMondiale = {
             'codice':'codice',
             'nome_it':'nome_it'
         },
-        customActions : {
+        actionsConfig : {
             'action-export-csv' : {
                 text: 'Csv',
             }

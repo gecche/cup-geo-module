@@ -1,5 +1,6 @@
 
 var ModelCupGeoArea = {
+    modelName : 'cup_geo_area',
     search: {
         modelName : 'cup_geo_area',
         //langContext : 'user',
@@ -28,11 +29,11 @@ var ModelCupGeoArea = {
         },
         fieldsConfig : {
             'attivo' : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_area'
             }
         },
-        customActions : {
+        actionsConfig : {
             'action-export-csv' : {
                 text: 'Csv',
             }

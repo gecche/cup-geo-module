@@ -1,5 +1,6 @@
 
 var ModelCupGeoRegione = {
+    modelName : 'cup_geo_regione',
     search: {
         modelName : 'cup_geo_regione',
         //langContext : 'user',
@@ -25,6 +26,7 @@ var ModelCupGeoRegione = {
     // },
     list: {
         modelName : 'cup_geo_regione',
+        cType: 'list',
         fields : [
             'codice','nome_it',
             'area',
@@ -40,7 +42,7 @@ var ModelCupGeoRegione = {
         },
         fieldsConfig : {
             'attivo' : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_regione'
             },
             'area' : {
@@ -50,7 +52,7 @@ var ModelCupGeoRegione = {
                 ]
             }
         },
-        customActions : {
+        actionsConfig : {
             'action-export-csv' : {
                 text: 'Csv',
             }

@@ -1,9 +1,10 @@
 <?php
 
 use Illuminate\Database\Migrations\Migration;
-use Gecche\Breeze\Database\Schema\Blueprint;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
-class CreateDatafileCupGeoComuniAggiuntive extends Migration {
+return new class extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -14,9 +15,9 @@ class CreateDatafileCupGeoComuniAggiuntive extends Migration {
 	{
 		Schema::create('datafile_cup_geo_comuni_aggiuntive', function(Blueprint $table)
 		{
-			$table->increments('id');
+			$table->id();
 			$table->integer('row')->unsigned()->nullable();
-			$table->integer('datafile_id')->unsigned()->nullable();
+			$table->unsignedBigInteger('datafile_id')->nullable();
             $table->string('datafile_sheet')->nullable();
 
             $table->string('codice_istat')->nullable();
@@ -40,4 +41,4 @@ class CreateDatafileCupGeoComuniAggiuntive extends Migration {
 		Schema::drop('datafile_cup_geo_comuni_aggiuntive');
 	}
 
-}
+};

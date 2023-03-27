@@ -1,4 +1,5 @@
 var ModelCupGeoComune = {
+    modelName : 'cup_geo_comune',
     search : {
         modelName : 'cup_geo_comune',
         fields : ['nome_it','provincia_id'],
@@ -11,6 +12,7 @@ var ModelCupGeoComune = {
         }
     },
     list: {
+        modelName : 'cup_geo_comune',
         actions : [
             'action-insert',
             'action-edit',
@@ -18,7 +20,7 @@ var ModelCupGeoComune = {
             'action-delete-selected',
             'action-export-csv',
         ],
-        customActions : {
+        actionsConfig : {
             'action-export-csv' : {
                 text: 'Csv',
             }
@@ -39,11 +41,11 @@ var ModelCupGeoComune = {
         ],
         fieldsConfig: {
             'capoluogo' : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_comune',
             },
             'attivo' : {
-                type : 'w-swap-smarty',
+                type : 'w-swap',
                 modelName : 'cup_geo_comune',
             },
             'provincia' : {
@@ -75,6 +77,7 @@ var ModelCupGeoComune = {
 
     },
     edit: {
+        modelName : 'cup_geo_comune',
         fields: [
             'nome_it',
             'codice_istat',

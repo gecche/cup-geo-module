@@ -36,7 +36,7 @@ class CupGeoDatabaseSeeder extends Seeder
 
             $cmdArrayProcessed[] = $cmd;
 
-            $process = new Process($cmd, $path);
+            $process = Process::fromShellCommandline($cmd, $path);
             $process->setTimeout(null);
             $process->run();
 
