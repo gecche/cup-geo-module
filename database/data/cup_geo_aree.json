@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2,
+    "codice": "1",
+    "nome_it": "Nord-ovest",
+    "attivo": 1
+  },
+  {
+    "id": 3,
+    "codice": "2",
+    "nome_it": "Nord-est",
+    "attivo": 1
+  },
+  {
+    "id": 4,
+    "codice": "3",
+    "nome_it": "Centro",
+    "attivo": 1
+  },
+  {
+    "id": 5,
+    "codice": "4",
+    "nome_it": "Sud",
+    "attivo": 1
+  },
+  {
+    "id": 6,
+    "codice": "5",
+    "nome_it": "Isole",
+    "attivo": 1
+  }
+]

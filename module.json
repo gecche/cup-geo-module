@@ -1,13 +1,11 @@
 {
     "name": "CupGeo",
-    "alias": "cupgeo",
+    "alias": "cup-geo",
     "description": "",
     "keywords": [],
     "order": 0,
     "providers": [
         "Modules\\CupGeo\\Providers\\CupGeoServiceProvider"
     ],
-    "aliases": {},
-    "files": [],
-    "requires": []
+    "files": []
 }

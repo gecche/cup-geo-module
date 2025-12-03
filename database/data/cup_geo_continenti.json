@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "codice": "1",
+    "nome_it": "Europa"
+  },
+  {
+    "id": 2,
+    "codice": "3",
+    "nome_it": "Asia"
+  },
+  {
+    "id": 3,
+    "codice": "2",
+    "nome_it": "Africa"
+  },
+  {
+    "id": 4,
+    "codice": "4",
+    "nome_it": "America"
+  },
+  {
+    "id": 5,
+    "codice": "5",
+    "nome_it": "Oceania"
+  }
+]

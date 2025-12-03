@@ -1,0 +1,1072 @@
+[
+  {
+    "id": 1,
+    "sigla": "TO",
+    "nome_it": "Torino",
+    "codice": "001",
+    "codice_nuovo": "201",
+    "area_id": 2,
+    "regione_id": 1,
+    "attivo": 1
+  },
+  {
+    "id": 2,
+    "sigla": "VC",
+    "nome_it": "Vercelli",
+    "codice": "002",
+    "codice_nuovo": "002",
+    "area_id": 2,
+    "regione_id": 1,
+    "attivo": 1
+  },
+  {
+    "id": 3,
+    "sigla": "NO",
+    "nome_it": "Novara",
+    "codice": "003",
+    "codice_nuovo": "003",
+    "area_id": 2,
+    "regione_id": 1,
+    "attivo": 1
+  },
+  {
+    "id": 4,
+    "sigla": "CN",
+    "nome_it": "Cuneo",
+    "codice": "004",
+    "codice_nuovo": "004",
+    "area_id": 2,
+    "regione_id": 1,
+    "attivo": 1
+  },
+  {
+    "id": 5,
+    "sigla": "AT",
+    "nome_it": "Asti",
+    "codice": "005",
+    "codice_nuovo": "005",
+    "area_id": 2,
+    "regione_id": 1,
+    "attivo": 1
+  },
+  {
+    "id": 6,
+    "sigla": "AL",
+    "nome_it": "Alessandria",
+    "codice": "006",
+    "codice_nuovo": "006",
+    "area_id": 2,
+    "regione_id": 1,
+    "attivo": 1
+  },
+  {
+    "id": 7,
+    "sigla": "BI",
+    "nome_it": "Biella",
+    "codice": "096",
+    "codice_nuovo": "096",
+    "area_id": 2,
+    "regione_id": 1,
+    "attivo": 1
+  },
+  {
+    "id": 8,
+    "sigla": "VB",
+    "nome_it": "Verbano-Cusio-Ossola",
+    "codice": "103",
+    "codice_nuovo": "103",
+    "area_id": 2,
+    "regione_id": 1,
+    "attivo": 1
+  },
+  {
+    "id": 9,
+    "sigla": "AO",
+    "nome_it": "Valle d'Aosta/Vallée d'Aoste",
+    "codice": "007",
+    "codice_nuovo": "007",
+    "area_id": 2,
+    "regione_id": 2,
+    "attivo": 1
+  },
+  {
+    "id": 10,
+    "sigla": "VA",
+    "nome_it": "Varese",
+    "codice": "012",
+    "codice_nuovo": "012",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 11,
+    "sigla": "CO",
+    "nome_it": "Como",
+    "codice": "013",
+    "codice_nuovo": "013",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 12,
+    "sigla": "SO",
+    "nome_it": "Sondrio",
+    "codice": "014",
+    "codice_nuovo": "014",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 13,
+    "sigla": "MI",
+    "nome_it": "Milano",
+    "codice": "015",
+    "codice_nuovo": "215",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 14,
+    "sigla": "BG",
+    "nome_it": "Bergamo",
+    "codice": "016",
+    "codice_nuovo": "016",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 15,
+    "sigla": "BS",
+    "nome_it": "Brescia",
+    "codice": "017",
+    "codice_nuovo": "017",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 16,
+    "sigla": "PV",
+    "nome_it": "Pavia",
+    "codice": "018",
+    "codice_nuovo": "018",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 17,
+    "sigla": "CR",
+    "nome_it": "Cremona",
+    "codice": "019",
+    "codice_nuovo": "019",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 18,
+    "sigla": "MN",
+    "nome_it": "Mantova",
+    "codice": "020",
+    "codice_nuovo": "020",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 19,
+    "sigla": "LC",
+    "nome_it": "Lecco",
+    "codice": "097",
+    "codice_nuovo": "097",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 20,
+    "sigla": "LO",
+    "nome_it": "Lodi",
+    "codice": "098",
+    "codice_nuovo": "098",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 21,
+    "sigla": "MB",
+    "nome_it": "Monza e della Brianza",
+    "codice": "108",
+    "codice_nuovo": "108",
+    "area_id": 2,
+    "regione_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 22,
+    "sigla": "BZ",
+    "nome_it": "Bolzano/Bozen",
+    "codice": "021",
+    "codice_nuovo": "021",
+    "area_id": 3,
+    "regione_id": 4,
+    "attivo": 1
+  },
+  {
+    "id": 23,
+    "sigla": "TN",
+    "nome_it": "Trento",
+    "codice": "022",
+    "codice_nuovo": "022",
+    "area_id": 3,
+    "regione_id": 4,
+    "attivo": 1
+  },
+  {
+    "id": 24,
+    "sigla": "VR",
+    "nome_it": "Verona",
+    "codice": "023",
+    "codice_nuovo": "023",
+    "area_id": 3,
+    "regione_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 25,
+    "sigla": "VI",
+    "nome_it": "Vicenza",
+    "codice": "024",
+    "codice_nuovo": "024",
+    "area_id": 3,
+    "regione_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 26,
+    "sigla": "BL",
+    "nome_it": "Belluno",
+    "codice": "025",
+    "codice_nuovo": "025",
+    "area_id": 3,
+    "regione_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 27,
+    "sigla": "TV",
+    "nome_it": "Treviso",
+    "codice": "026",
+    "codice_nuovo": "026",
+    "area_id": 3,
+    "regione_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 28,
+    "sigla": "VE",
+    "nome_it": "Venezia",
+    "codice": "027",
+    "codice_nuovo": "227",
+    "area_id": 3,
+    "regione_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 29,
+    "sigla": "PD",
+    "nome_it": "Padova",
+    "codice": "028",
+    "codice_nuovo": "028",
+    "area_id": 3,
+    "regione_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 30,
+    "sigla": "RO",
+    "nome_it": "Rovigo",
+    "codice": "029",
+    "codice_nuovo": "029",
+    "area_id": 3,
+    "regione_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 31,
+    "sigla": "UD",
+    "nome_it": "Udine",
+    "codice": "030",
+    "codice_nuovo": "030",
+    "area_id": 3,
+    "regione_id": 6,
+    "attivo": 1
+  },
+  {
+    "id": 32,
+    "sigla": "GO",
+    "nome_it": "Gorizia",
+    "codice": "031",
+    "codice_nuovo": "031",
+    "area_id": 3,
+    "regione_id": 6,
+    "attivo": 1
+  },
+  {
+    "id": 33,
+    "sigla": "TS",
+    "nome_it": "Trieste",
+    "codice": "032",
+    "codice_nuovo": "032",
+    "area_id": 3,
+    "regione_id": 6,
+    "attivo": 1
+  },
+  {
+    "id": 34,
+    "sigla": "PN",
+    "nome_it": "Pordenone",
+    "codice": "093",
+    "codice_nuovo": "093",
+    "area_id": 3,
+    "regione_id": 6,
+    "attivo": 1
+  },
+  {
+    "id": 35,
+    "sigla": "IM",
+    "nome_it": "Imperia",
+    "codice": "008",
+    "codice_nuovo": "008",
+    "area_id": 2,
+    "regione_id": 7,
+    "attivo": 1
+  },
+  {
+    "id": 36,
+    "sigla": "SV",
+    "nome_it": "Savona",
+    "codice": "009",
+    "codice_nuovo": "009",
+    "area_id": 2,
+    "regione_id": 7,
+    "attivo": 1
+  },
+  {
+    "id": 37,
+    "sigla": "GE",
+    "nome_it": "Genova",
+    "codice": "010",
+    "codice_nuovo": "210",
+    "area_id": 2,
+    "regione_id": 7,
+    "attivo": 1
+  },
+  {
+    "id": 38,
+    "sigla": "SP",
+    "nome_it": "La Spezia",
+    "codice": "011",
+    "codice_nuovo": "011",
+    "area_id": 2,
+    "regione_id": 7,
+    "attivo": 1
+  },
+  {
+    "id": 39,
+    "sigla": "PC",
+    "nome_it": "Piacenza",
+    "codice": "033",
+    "codice_nuovo": "033",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 40,
+    "sigla": "PR",
+    "nome_it": "Parma",
+    "codice": "034",
+    "codice_nuovo": "034",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 41,
+    "sigla": "RE",
+    "nome_it": "Reggio nell'Emilia",
+    "codice": "035",
+    "codice_nuovo": "035",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 42,
+    "sigla": "MO",
+    "nome_it": "Modena",
+    "codice": "036",
+    "codice_nuovo": "036",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 43,
+    "sigla": "BO",
+    "nome_it": "Bologna",
+    "codice": "037",
+    "codice_nuovo": "237",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 44,
+    "sigla": "FE",
+    "nome_it": "Ferrara",
+    "codice": "038",
+    "codice_nuovo": "038",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 45,
+    "sigla": "RA",
+    "nome_it": "Ravenna",
+    "codice": "039",
+    "codice_nuovo": "039",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 46,
+    "sigla": "FC",
+    "nome_it": "Forlì-Cesena",
+    "codice": "040",
+    "codice_nuovo": "040",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 47,
+    "sigla": "RN",
+    "nome_it": "Rimini",
+    "codice": "099",
+    "codice_nuovo": "099",
+    "area_id": 3,
+    "regione_id": 8,
+    "attivo": 1
+  },
+  {
+    "id": 48,
+    "sigla": "MS",
+    "nome_it": "Massa-Carrara",
+    "codice": "045",
+    "codice_nuovo": "045",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 49,
+    "sigla": "LU",
+    "nome_it": "Lucca",
+    "codice": "046",
+    "codice_nuovo": "046",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 50,
+    "sigla": "PT",
+    "nome_it": "Pistoia",
+    "codice": "047",
+    "codice_nuovo": "047",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 51,
+    "sigla": "FI",
+    "nome_it": "Firenze",
+    "codice": "048",
+    "codice_nuovo": "248",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 52,
+    "sigla": "LI",
+    "nome_it": "Livorno",
+    "codice": "049",
+    "codice_nuovo": "049",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 53,
+    "sigla": "PI",
+    "nome_it": "Pisa",
+    "codice": "050",
+    "codice_nuovo": "050",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 54,
+    "sigla": "AR",
+    "nome_it": "Arezzo",
+    "codice": "051",
+    "codice_nuovo": "051",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 55,
+    "sigla": "SI",
+    "nome_it": "Siena",
+    "codice": "052",
+    "codice_nuovo": "052",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 56,
+    "sigla": "GR",
+    "nome_it": "Grosseto",
+    "codice": "053",
+    "codice_nuovo": "053",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 57,
+    "sigla": "PO",
+    "nome_it": "Prato",
+    "codice": "100",
+    "codice_nuovo": "100",
+    "area_id": 4,
+    "regione_id": 9,
+    "attivo": 1
+  },
+  {
+    "id": 58,
+    "sigla": "PG",
+    "nome_it": "Perugia",
+    "codice": "054",
+    "codice_nuovo": "054",
+    "area_id": 4,
+    "regione_id": 10,
+    "attivo": 1
+  },
+  {
+    "id": 59,
+    "sigla": "TR",
+    "nome_it": "Terni",
+    "codice": "055",
+    "codice_nuovo": "055",
+    "area_id": 4,
+    "regione_id": 10,
+    "attivo": 1
+  },
+  {
+    "id": 60,
+    "sigla": "PU",
+    "nome_it": "Pesaro e Urbino",
+    "codice": "041",
+    "codice_nuovo": "041",
+    "area_id": 4,
+    "regione_id": 11,
+    "attivo": 1
+  },
+  {
+    "id": 61,
+    "sigla": "AN",
+    "nome_it": "Ancona",
+    "codice": "042",
+    "codice_nuovo": "042",
+    "area_id": 4,
+    "regione_id": 11,
+    "attivo": 1
+  },
+  {
+    "id": 62,
+    "sigla": "MC",
+    "nome_it": "Macerata",
+    "codice": "043",
+    "codice_nuovo": "043",
+    "area_id": 4,
+    "regione_id": 11,
+    "attivo": 1
+  },
+  {
+    "id": 63,
+    "sigla": "AP",
+    "nome_it": "Ascoli Piceno",
+    "codice": "044",
+    "codice_nuovo": "044",
+    "area_id": 4,
+    "regione_id": 11,
+    "attivo": 1
+  },
+  {
+    "id": 64,
+    "sigla": "FM",
+    "nome_it": "Fermo",
+    "codice": "109",
+    "codice_nuovo": "109",
+    "area_id": 4,
+    "regione_id": 11,
+    "attivo": 1
+  },
+  {
+    "id": 65,
+    "sigla": "VT",
+    "nome_it": "Viterbo",
+    "codice": "056",
+    "codice_nuovo": "056",
+    "area_id": 4,
+    "regione_id": 12,
+    "attivo": 1
+  },
+  {
+    "id": 66,
+    "sigla": "RI",
+    "nome_it": "Rieti",
+    "codice": "057",
+    "codice_nuovo": "057",
+    "area_id": 4,
+    "regione_id": 12,
+    "attivo": 1
+  },
+  {
+    "id": 67,
+    "sigla": "RM",
+    "nome_it": "Roma",
+    "codice": "058",
+    "codice_nuovo": "258",
+    "area_id": 4,
+    "regione_id": 12,
+    "attivo": 1
+  },
+  {
+    "id": 68,
+    "sigla": "LT",
+    "nome_it": "Latina",
+    "codice": "059",
+    "codice_nuovo": "059",
+    "area_id": 4,
+    "regione_id": 12,
+    "attivo": 1
+  },
+  {
+    "id": 69,
+    "sigla": "FR",
+    "nome_it": "Frosinone",
+    "codice": "060",
+    "codice_nuovo": "060",
+    "area_id": 4,
+    "regione_id": 12,
+    "attivo": 1
+  },
+  {
+    "id": 70,
+    "sigla": "AQ",
+    "nome_it": "L'Aquila",
+    "codice": "066",
+    "codice_nuovo": "066",
+    "area_id": 5,
+    "regione_id": 13,
+    "attivo": 1
+  },
+  {
+    "id": 71,
+    "sigla": "TE",
+    "nome_it": "Teramo",
+    "codice": "067",
+    "codice_nuovo": "067",
+    "area_id": 5,
+    "regione_id": 13,
+    "attivo": 1
+  },
+  {
+    "id": 72,
+    "sigla": "PE",
+    "nome_it": "Pescara",
+    "codice": "068",
+    "codice_nuovo": "068",
+    "area_id": 5,
+    "regione_id": 13,
+    "attivo": 1
+  },
+  {
+    "id": 73,
+    "sigla": "CH",
+    "nome_it": "Chieti",
+    "codice": "069",
+    "codice_nuovo": "069",
+    "area_id": 5,
+    "regione_id": 13,
+    "attivo": 1
+  },
+  {
+    "id": 74,
+    "sigla": "CB",
+    "nome_it": "Campobasso",
+    "codice": "070",
+    "codice_nuovo": "070",
+    "area_id": 5,
+    "regione_id": 14,
+    "attivo": 1
+  },
+  {
+    "id": 75,
+    "sigla": "IS",
+    "nome_it": "Isernia",
+    "codice": "094",
+    "codice_nuovo": "094",
+    "area_id": 5,
+    "regione_id": 14,
+    "attivo": 1
+  },
+  {
+    "id": 76,
+    "sigla": "CE",
+    "nome_it": "Caserta",
+    "codice": "061",
+    "codice_nuovo": "061",
+    "area_id": 5,
+    "regione_id": 15,
+    "attivo": 1
+  },
+  {
+    "id": 77,
+    "sigla": "BN",
+    "nome_it": "Benevento",
+    "codice": "062",
+    "codice_nuovo": "062",
+    "area_id": 5,
+    "regione_id": 15,
+    "attivo": 1
+  },
+  {
+    "id": 78,
+    "sigla": "NA",
+    "nome_it": "Napoli",
+    "codice": "063",
+    "codice_nuovo": "263",
+    "area_id": 5,
+    "regione_id": 15,
+    "attivo": 1
+  },
+  {
+    "id": 79,
+    "sigla": "AV",
+    "nome_it": "Avellino",
+    "codice": "064",
+    "codice_nuovo": "064",
+    "area_id": 5,
+    "regione_id": 15,
+    "attivo": 1
+  },
+  {
+    "id": 80,
+    "sigla": "SA",
+    "nome_it": "Salerno",
+    "codice": "065",
+    "codice_nuovo": "065",
+    "area_id": 5,
+    "regione_id": 15,
+    "attivo": 1
+  },
+  {
+    "id": 81,
+    "sigla": "FG",
+    "nome_it": "Foggia",
+    "codice": "071",
+    "codice_nuovo": "071",
+    "area_id": 5,
+    "regione_id": 16,
+    "attivo": 1
+  },
+  {
+    "id": 82,
+    "sigla": "BA",
+    "nome_it": "Bari",
+    "codice": "072",
+    "codice_nuovo": "272",
+    "area_id": 5,
+    "regione_id": 16,
+    "attivo": 1
+  },
+  {
+    "id": 83,
+    "sigla": "TA",
+    "nome_it": "Taranto",
+    "codice": "073",
+    "codice_nuovo": "073",
+    "area_id": 5,
+    "regione_id": 16,
+    "attivo": 1
+  },
+  {
+    "id": 84,
+    "sigla": "BR",
+    "nome_it": "Brindisi",
+    "codice": "074",
+    "codice_nuovo": "074",
+    "area_id": 5,
+    "regione_id": 16,
+    "attivo": 1
+  },
+  {
+    "id": 85,
+    "sigla": "LE",
+    "nome_it": "Lecce",
+    "codice": "075",
+    "codice_nuovo": "075",
+    "area_id": 5,
+    "regione_id": 16,
+    "attivo": 1
+  },
+  {
+    "id": 86,
+    "sigla": "BT",
+    "nome_it": "Barletta-Andria-Trani",
+    "codice": "110",
+    "codice_nuovo": "110",
+    "area_id": 5,
+    "regione_id": 16,
+    "attivo": 1
+  },
+  {
+    "id": 87,
+    "sigla": "PZ",
+    "nome_it": "Potenza",
+    "codice": "076",
+    "codice_nuovo": "076",
+    "area_id": 5,
+    "regione_id": 17,
+    "attivo": 1
+  },
+  {
+    "id": 88,
+    "sigla": "MT",
+    "nome_it": "Matera",
+    "codice": "077",
+    "codice_nuovo": "077",
+    "area_id": 5,
+    "regione_id": 17,
+    "attivo": 1
+  },
+  {
+    "id": 89,
+    "sigla": "CS",
+    "nome_it": "Cosenza",
+    "codice": "078",
+    "codice_nuovo": "078",
+    "area_id": 5,
+    "regione_id": 18,
+    "attivo": 1
+  },
+  {
+    "id": 90,
+    "sigla": "CZ",
+    "nome_it": "Catanzaro",
+    "codice": "079",
+    "codice_nuovo": "079",
+    "area_id": 5,
+    "regione_id": 18,
+    "attivo": 1
+  },
+  {
+    "id": 91,
+    "sigla": "RC",
+    "nome_it": "Reggio Calabria",
+    "codice": "080",
+    "codice_nuovo": "280",
+    "area_id": 5,
+    "regione_id": 18,
+    "attivo": 1
+  },
+  {
+    "id": 92,
+    "sigla": "KR",
+    "nome_it": "Crotone",
+    "codice": "101",
+    "codice_nuovo": "101",
+    "area_id": 5,
+    "regione_id": 18,
+    "attivo": 1
+  },
+  {
+    "id": 93,
+    "sigla": "VV",
+    "nome_it": "Vibo Valentia",
+    "codice": "102",
+    "codice_nuovo": "102",
+    "area_id": 5,
+    "regione_id": 18,
+    "attivo": 1
+  },
+  {
+    "id": 94,
+    "sigla": "TP",
+    "nome_it": "Trapani",
+    "codice": "081",
+    "codice_nuovo": "081",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 95,
+    "sigla": "PA",
+    "nome_it": "Palermo",
+    "codice": "082",
+    "codice_nuovo": "282",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 96,
+    "sigla": "ME",
+    "nome_it": "Messina",
+    "codice": "083",
+    "codice_nuovo": "283",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 97,
+    "sigla": "AG",
+    "nome_it": "Agrigento",
+    "codice": "084",
+    "codice_nuovo": "084",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 98,
+    "sigla": "CL",
+    "nome_it": "Caltanissetta",
+    "codice": "085",
+    "codice_nuovo": "085",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 99,
+    "sigla": "EN",
+    "nome_it": "Enna",
+    "codice": "086",
+    "codice_nuovo": "086",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 100,
+    "sigla": "CT",
+    "nome_it": "Catania",
+    "codice": "087",
+    "codice_nuovo": "287",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 101,
+    "sigla": "RG",
+    "nome_it": "Ragusa",
+    "codice": "088",
+    "codice_nuovo": "088",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 102,
+    "sigla": "SR",
+    "nome_it": "Siracusa",
+    "codice": "089",
+    "codice_nuovo": "089",
+    "area_id": 6,
+    "regione_id": 19,
+    "attivo": 1
+  },
+  {
+    "id": 103,
+    "sigla": "SS",
+    "nome_it": "Sassari",
+    "codice": "090",
+    "codice_nuovo": "090",
+    "area_id": 6,
+    "regione_id": 20,
+    "attivo": 1
+  },
+  {
+    "id": 104,
+    "sigla": "NU",
+    "nome_it": "Nuoro",
+    "codice": "091",
+    "codice_nuovo": "091",
+    "area_id": 6,
+    "regione_id": 20,
+    "attivo": 1
+  },
+  {
+    "id": 105,
+    "sigla": "CA",
+    "nome_it": "Cagliari",
+    "codice": "092",
+    "codice_nuovo": "292",
+    "area_id": 6,
+    "regione_id": 20,
+    "attivo": 1
+  },
+  {
+    "id": 106,
+    "sigla": "OR",
+    "nome_it": "Oristano",
+    "codice": "095",
+    "codice_nuovo": "095",
+    "area_id": 6,
+    "regione_id": 20,
+    "attivo": 1
+  },
+  {
+    "id": 107,
+    "sigla": "SU",
+    "nome_it": "Sud Sardegna",
+    "codice": "111",
+    "codice_nuovo": "111",
+    "area_id": 6,
+    "regione_id": 20,
+    "attivo": 1
+  }
+]

@@ -1,0 +1,67 @@
+	[
+		{
+			"id": 1,
+			"codice": "11",
+			"nome_it": "Unione europea"
+		},
+		{
+			"id": 2,
+			"codice": "12",
+			"nome_it": "Europa centro orientale"
+		},
+		{
+			"id": 3,
+			"codice": "13",
+			"nome_it": "Altri paesi europei"
+		},
+		{
+			"id": 4,
+			"codice": "32",
+			"nome_it": "Asia centro meridionale"
+		},
+		{
+			"id": 5,
+			"codice": "31",
+			"nome_it": "Asia occidentale"
+		},
+		{
+			"id": 6,
+			"codice": "33",
+			"nome_it": "Asia orientale"
+		},
+		{
+			"id": 7,
+			"codice": "21",
+			"nome_it": "Africa settentrionale"
+		},
+		{
+			"id": 8,
+			"codice": "24",
+			"nome_it": "Africa centro meridionale"
+		},
+		{
+			"id": 9,
+			"codice": "22",
+			"nome_it": "Africa occidentale"
+		},
+		{
+			"id": 10,
+			"codice": "23",
+			"nome_it": "Africa orientale"
+		},
+		{
+			"id": 11,
+			"codice": "42",
+			"nome_it": "America centro meridionale"
+		},
+		{
+			"id": 12,
+			"codice": "41",
+			"nome_it": "America settentrionale"
+		},
+		{
+			"id": 13,
+			"codice": "50",
+			"nome_it": "Oceania"
+		}
+	]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "codice": "01",
+    "nome_it": "Piemonte",
+    "area_id": 2,
+    "attivo": 1
+  },
+  {
+    "id": 2,
+    "codice": "02",
+    "nome_it": "Valle d'Aosta/Vallée d'Aoste",
+    "area_id": 2,
+    "attivo": 1
+  },
+  {
+    "id": 3,
+    "codice": "03",
+    "nome_it": "Lombardia",
+    "area_id": 2,
+    "attivo": 1
+  },
+  {
+    "id": 4,
+    "codice": "04",
+    "nome_it": "Trentino-Alto Adige/Südtirol",
+    "area_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 5,
+    "codice": "05",
+    "nome_it": "Veneto",
+    "area_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 6,
+    "codice": "06",
+    "nome_it": "Friuli-Venezia Giulia",
+    "area_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 7,
+    "codice": "07",
+    "nome_it": "Liguria",
+    "area_id": 2,
+    "attivo": 1
+  },
+  {
+    "id": 8,
+    "codice": "08",
+    "nome_it": "Emilia-Romagna",
+    "area_id": 3,
+    "attivo": 1
+  },
+  {
+    "id": 9,
+    "codice": "09",
+    "nome_it": "Toscana",
+    "area_id": 4,
+    "attivo": 1
+  },
+  {
+    "id": 10,
+    "codice": "10",
+    "nome_it": "Umbria",
+    "area_id": 4,
+    "attivo": 1
+  },
+  {
+    "id": 11,
+    "codice": "11",
+    "nome_it": "Marche",
+    "area_id": 4,
+    "attivo": 1
+  },
+  {
+    "id": 12,
+    "codice": "12",
+    "nome_it": "Lazio",
+    "area_id": 4,
+    "attivo": 1
+  },
+  {
+    "id": 13,
+    "codice": "13",
+    "nome_it": "Abruzzo",
+    "area_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 14,
+    "codice": "14",
+    "nome_it": "Molise",
+    "area_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 15,
+    "codice": "15",
+    "nome_it": "Campania",
+    "area_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 16,
+    "codice": "16",
+    "nome_it": "Puglia",
+    "area_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 17,
+    "codice": "17",
+    "nome_it": "Basilicata",
+    "area_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 18,
+    "codice": "18",
+    "nome_it": "Calabria",
+    "area_id": 5,
+    "attivo": 1
+  },
+  {
+    "id": 19,
+    "codice": "19",
+    "nome_it": "Sicilia",
+    "area_id": 6,
+    "attivo": 1
+  },
+  {
+    "id": 20,
+    "codice": "20",
+    "nome_it": "Sardegna",
+    "area_id": 6,
+    "attivo": 1
+  }
+]

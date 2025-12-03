@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Policies;
+namespace Modules\CupGeo\Policies;
 
 use App\Models\User;
-use App\Models\CupGeoContinente;
 use Gecche\PolicyBuilder\Facades\PolicyBuilder;
 use Illuminate\Auth\Access\HandlesAuthorization;
+use App\Models\CupGeoContinente;
 
 class CupGeoContinentePolicy
 {
@@ -49,7 +49,7 @@ class CupGeoContinentePolicy
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Deal  $model
+     * @param  \App\Models\CupGeoContinente  $model
      * @return mixed
      */
     public function update(User $user, CupGeoContinente $model)
@@ -66,7 +66,7 @@ class CupGeoContinentePolicy
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Deal  $model
+     * @param  \App\Models\CupGeoContinente  $model
      * @return mixed
      */
     public function delete(User $user, CupGeoContinente $model)

@@ -3,9 +3,9 @@
 namespace App\Policies;
 
 use App\Models\User;
-use App\Models\CupGeoComune;
-use Illuminate\Auth\Access\HandlesAuthorization;
 use Gecche\PolicyBuilder\Facades\PolicyBuilder;
+use Illuminate\Auth\Access\HandlesAuthorization;
+use App\Models\CupGeoComune;
 
 class CupGeoComunePolicy
 {
@@ -49,7 +49,7 @@ class CupGeoComunePolicy
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Deal  $model
+     * @param  \App\Models\CupGeoComune  $model
      * @return mixed
      */
     public function update(User $user, CupGeoComune $model)
@@ -66,7 +66,7 @@ class CupGeoComunePolicy
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Deal  $model
+     * @param  \App\Models\CupGeoComune  $model
      * @return mixed
      */
     public function delete(User $user, CupGeoComune $model)

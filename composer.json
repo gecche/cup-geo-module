@@ -10,9 +10,7 @@
     ],
     "extra": {
         "laravel": {
-            "providers": [
-                "Modules\\CupGeo\\Providers\\CupGeoServiceProvider"
-            ],
+            "providers": [],
             "aliases": {
 
             }
@@ -20,7 +18,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\CupGeo\\": ""
+            "Modules\\CupGeo\\": "app/",
+            "Modules\\CupGeo\\Database\\Factories\\": "database/factories/",
+            "Modules\\CupGeo\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\CupGeo\\Tests\\": "tests/"
         }
     }
 }
