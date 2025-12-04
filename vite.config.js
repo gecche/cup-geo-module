@@ -6,14 +6,14 @@ import { fileURLToPath } from 'url';
 
 export default defineConfig({
     build: {
-        outDir: '../../public/build-gup-geo',
+        outDir: '../../public/build-cup-geo',
         emptyOutDir: true,
         manifest: true,
     },
     plugins: [
         laravel({
             publicDirectory: '../../public',
-            buildDirectory: 'build-gup-geo',
+            buildDirectory: 'build-cup-geo',
             input: [
                 __dirname + '/resources/assets/sass/app.scss',
                 __dirname + '/resources/assets/js/app.js'

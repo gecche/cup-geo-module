@@ -71,7 +71,7 @@
     ],
 
     "config": [
-        "cupgeo"
+        "cup-geo"
     ],
 
     "public": [
@@ -86,7 +86,7 @@
         "admin/pages/tabgeoitalia.html",
         "admin/pages/tabgeomondo.html",
 
-        "admin/assets/css/cupgeo.css",
+        "admin/assets/css/cup-geo.css",
         "images/vendor/flag-icon-css"
     ],
     "install": [

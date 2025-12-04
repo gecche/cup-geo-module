@@ -16,7 +16,7 @@ class CupparisInstall extends CupparisModuleInstall
     /**
      * The name and signature of the console command.
      */
-    protected $signature = 'cupgeo:cupparis-install {type=i : install (i) or uninstall (u), default i}';
+    protected $signature = 'cup-geo:cupparis-install {type=i : install (i) or uninstall (u), default i}';
 
     /**
      * The console command description.

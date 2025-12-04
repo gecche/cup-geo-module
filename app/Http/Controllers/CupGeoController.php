@@ -12,7 +12,7 @@ class CupGeoController extends Controller
      */
     public function index()
     {
-        return view('cupgeo::index');
+        return view('cup-geo::index');
     }
 
     /**
@@ -20,7 +20,7 @@ class CupGeoController extends Controller
      */
     public function create()
     {
-        return view('cupgeo::create');
+        return view('cup-geo::create');
     }
 
     /**
@@ -36,7 +36,7 @@ class CupGeoController extends Controller
      */
     public function show($id)
     {
-        return view('cupgeo::show');
+        return view('cup-geo::show');
     }
 
     /**
@@ -44,7 +44,7 @@ class CupGeoController extends Controller
      */
     public function edit($id)
     {
-        return view('cupgeo::edit');
+        return view('cup-geo::edit');
     }
 
     /**
