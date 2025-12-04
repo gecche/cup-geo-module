@@ -61,7 +61,7 @@ export default () => {
                 },
                 flagicon: {
                     type: 'w-custom',
-                    mounted: function () {
+                    ready() {
                         var that = this;
                         var iso = (that.modelData.codice_iso_2).toLowerCase();
                         if (iso === 'uk') iso = 'gb';

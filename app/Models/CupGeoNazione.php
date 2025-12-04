@@ -4,6 +4,10 @@ namespace Modules\CupGeo\Models;
 
 use Gecche\Cupparis\App\Breeze\Breeze;
 
+use App\Models\CupGeoContinente;
+use App\Models\CupGeoAreaMondiale;
+use App\Models\CupGeoNazione;
+
 class CupGeoNazione extends Breeze {
 
     protected $table = 'cup_geo_nazioni';
@@ -21,9 +25,9 @@ class CupGeoNazione extends Breeze {
 
 
     public static $relationsData = [
-        'continente' => [self::BELONGS_TO, 'related' => \Models\CupGeoContinente::class, 'foreignKey' => 'continente_id'],
-        'area' => [self::BELONGS_TO, 'related' => \Models\CupGeoAreaMondiale::class, 'foreignKey' => 'area_id'],
-        'parent' => [self::BELONGS_TO, 'related' => \Models\CupGeoNazione::class, 'foreignKey' => 'parent_id'],
+        'continente' => [self::BELONGS_TO, 'related' => CupGeoContinente::class, 'foreignKey' => 'continente_id'],
+        'area' => [self::BELONGS_TO, 'related' => CupGeoAreaMondiale::class, 'foreignKey' => 'area_id'],
+        'parent' => [self::BELONGS_TO, 'related' => CupGeoNazione::class, 'foreignKey' => 'parent_id'],
 //        'cliente' => [self::BELONGS_TO, 'related' => 'App\Models\Cliente'],
 //        'tickets' => [self::HAS_MANY, 'related' => 'App\Models\Ticket'],
     ];

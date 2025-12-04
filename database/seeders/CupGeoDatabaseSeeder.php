@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Nwidart\Modules\Facades\Module;
 
-class GeograficheTableSeeder extends Seeder
+class CupGeoDatabaseSeeder extends Seeder
 {
     /**
      * Run the database seeds.

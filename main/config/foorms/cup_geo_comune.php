@@ -61,7 +61,10 @@ return [
     ],
     'list' => [
         'basic_query_fields' => ['nome_it','codice_istat','codice_catastale'],
-
+        'allowed_actions' => [
+            'set' => true,
+            'csv-export' => true,
+        ],
         'actions' => [
             'set' => [
                 'allowed_fields' => [

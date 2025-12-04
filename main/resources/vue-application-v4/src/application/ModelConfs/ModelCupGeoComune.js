@@ -58,7 +58,7 @@ export default () => {
                 },
                 'provinciasigla': {
                     type: "w-custom",
-                    mounted: function () {
+                    ready() {
                         var that = this;
                         if (that.modelData)
                             that.value = that.modelData.provincia.sigla;

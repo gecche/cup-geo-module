@@ -59,7 +59,10 @@ return [
     ],
     'list' => [
         'basic_query_fields' => ['nome_it'],
-
+        'allowed_actions' => [
+            'set' => true,
+            'csv-export' => true,
+        ],
         'actions' => [
             'set' => [
                 'allowed_fields' => [
