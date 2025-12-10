@@ -44,6 +44,7 @@ export default () => {
             modelName: 'cup_geo_continente',
             type: 'v-edit',
             actions: ['action-save', 'action-save-back', 'action-back'],
+            actionsConfig: {},
             fields: ['codice', 'nome_it',
                 //'comuni'
             ],

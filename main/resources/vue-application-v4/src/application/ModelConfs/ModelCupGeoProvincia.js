@@ -66,6 +66,7 @@ export default () => {
             modelName: 'cup_geo_provincia',
             type: 'v-edit',
             actions: ['action-save', 'action-save-back', 'action-back'],
+            actionsConfig: {},
             fields: ['codice', 'nome_it', 'sigla', 'regione_id', 'codice_nuovo'
                 //'comuni'
             ],

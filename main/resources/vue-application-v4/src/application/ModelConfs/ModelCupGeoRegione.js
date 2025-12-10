@@ -65,6 +65,7 @@ export default () => {
             modelName: 'cup_geo_regione',
             type: 'v-edit',
             actions: ['action-save', 'action-save-back', 'action-back'],
+            actionsConfig: {},
             fields: ['codice', 'nome_it', 'area_id'
                 //'comuni'
             ],

@@ -93,6 +93,7 @@ export default () => {
             modelName: 'cup_geo_nazione',
             type: 'v-edit',
             actions: ['action-save', 'action-save-back', 'action-back'],
+            actionsConfig: {},
             fields: [
                 'codice_istat',
                 'nome_it',

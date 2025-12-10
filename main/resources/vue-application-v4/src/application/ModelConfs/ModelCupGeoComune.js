@@ -82,6 +82,7 @@ export default () => {
             modelName: 'cup_geo_comune',
             type: 'v-edit',
             actions: ['action-save', 'action-save-back', 'action-back'],
+            actionsConfig: {},
             fields: [
                 'nome_it',
                 'codice_istat',

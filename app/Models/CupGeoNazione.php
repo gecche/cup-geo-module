@@ -6,7 +6,6 @@ use Gecche\Cupparis\App\Breeze\Breeze;
 
 use App\Models\CupGeoContinente;
 use App\Models\CupGeoAreaMondiale;
-use App\Models\CupGeoNazione;
 
 class CupGeoNazione extends Breeze {
 
