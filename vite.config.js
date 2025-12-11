@@ -32,7 +32,7 @@ export default defineConfig({
 //            const filePath = join(currentPath, file);
 //            const stats = statSync(filePath);
 //            if (stats.isFile() && !file.startsWith('.')) {
-//                const relativePath = 'Modules/Unico/'+relative(__dirname, filePath);
+//                const relativePath = 'Modules/CupGeo/'+relative(__dirname, filePath);
 //                filePaths.push(relativePath);
 //            } else if (stats.isDirectory()) {
 //                walkDirectory(filePath);
@@ -52,6 +52,6 @@ export default defineConfig({
 
 
 //export const paths = [
-//    'Modules/Unico/resources/assets/sass/app.scss',
-//    'Modules/Unico/resources/assets/js/app.js',
+//    'Modules/CupGeo/resources/assets/sass/app.scss',
+//    'Modules/CupGeo/resources/assets/js/app.js',
 //];

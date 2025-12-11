@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Modules\Unico\Http\Controllers\CupGeoController;
+use Modules\CupGeo\Http\Controllers\CupGeoController;
 
 
 Route::middleware(['auth', 'verified'])->group(function () {
